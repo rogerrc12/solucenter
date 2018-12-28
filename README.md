@@ -1,2 +1,2 @@
 # solucenter
-Solucenter webpage PHP
+Solucenter webpage PHP for https://wwwo.solucenterperu.com
