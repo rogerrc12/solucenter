@@ -210,7 +210,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/sierras_dobles/SIERRA_DOBLE_IM-300_PL.png" alt="SIERRA DOBLE IM-300 PL" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/sierras_dobles/sierra_doble_im-300_pl.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">SIERRA DOBLE IM-300 PL</h3>
@@ -221,7 +221,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/sierras_dobles/SIERRA_DOBLE_IM-300P_AL.png" alt="SIERRA DOBLE IM-300P AL" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/sierras_dobles/sierra_doble_im-300p_al.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">SIERRA DOBLE IM-300P AL</h3>
@@ -232,7 +232,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/sierras_dobles/SIERRA_DOBLE_IM-300PL_AL.png" alt="SIERRA DOBLE IM-300PL AL" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/sierras_dobles/sierra_doble_im-300pl_al.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">SIERRA DOBLE IM-300PL AL</h3>
@@ -243,7 +243,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/enchapadoras/ENCHAPADORA_IC-1000_PLUS_ELECTRONIC.png" alt="ENCHAPADORA IC-1000 PLUS ELECTRONIC" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/enchapadoras/enchapadora_ic-1000_plus_electronic.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">ENCHAPADORA IC-1000 PLUS ELECTRONIC</h3>
@@ -254,7 +254,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/enchapadoras/ENCHAPADORA_IC-1000_ELECTRONIC.png" alt="ENCHAPADORA IC-1000 ELECTRONIC" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/enchapadoras/enchapadora_ic-1000_electronic.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">ENCHAPADORA IC-1000 ELECTRONIC</h3>
@@ -265,7 +265,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/enchapadoras/ENCHAPADORA_IC-2003_RP_PLUS_ELECTRONIC.png" alt="ENCHAPADORA IC-2003 RP PLUS ELECTRONIC" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/enchapadoras/enchapadora_ic-2003_rp_plus_electronic.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">ENCHAPADORA IC-2003 RP PLUS ELECTRONIC</h3>
@@ -276,7 +276,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/enchapadoras/ENCHAPADORA_IC-2003_DRP_PLUS_ELECTRONIC.png" alt="ENCHAPADORA IC-2003 DRP PLUS ELECTRONIC" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/enchapadoras/enchapadora_ic-2003_drp_plus_electronic.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">ENCHAPADORA IC-2003 DRP PLUS ELECTRONIC</h3>
@@ -287,7 +287,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/enchapadoras/ENCHAPADORA_IC-2003_DRRP_PLUS_ELECTRONIC.png" alt="ENCHAPADORA IC-2003 DRRP PLUS ELECTRONIC" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/enchapadoras/enchapadora_ic-2003_drrp_plus_electronic.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">ENCHAPADORA IC-2003 DRRP PLUS ELECTRONIC</h3>
@@ -298,7 +298,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/perforadoras/PERFORADORA_IF-8500.png" alt="PERFORADORA IF-8500" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/perforadoras/perforadora_if-8500.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">PERFORADORA IF-8500</h3>
@@ -315,7 +315,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/perforadoras/PERFORADORA_IF-6.png" alt="PERFORADORA IF-6" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/perforadoras/perforadora_if-6.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">PERFORADORA IF-6</h3>
@@ -326,7 +326,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/mesas_rodillo/MESA_DE_RODILLO_IMR-8.png" alt="MESA DE RODILLO IMR-8" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/mesas_rodillo/mesa_de_rodillo_imr-8.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">MESA DE RODILLO IMR-8</h3>
@@ -337,7 +337,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/transportadores/TRANSPORTADOR_ITR-1200.png" alt="TRANSPORTADOR ITR-1200" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/transportadores/transportador_itr-1200.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">TRANSPORTADOR ITR-1200</h3>

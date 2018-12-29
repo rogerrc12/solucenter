@@ -38,17 +38,6 @@
             <div class="col-12 col-md-4 producto">
                 <div class="col-12">
                     <div class="content-overlay"></div>
-                    <img src="img/productos/pistolas/PISTOLA_FI-150_M.png" alt="PISTOLA FI-150 M" width="100%">
-                    <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
-                    </div>
-                </div>
-                <h3 class="H3 p-3">PISTOLA FI-150 M</h3>
-            </div>
-            <!-- 3 -->
-            <div class="col-12 col-md-4 producto">
-                <div class="col-12">
-                    <div class="content-overlay"></div>
                     <img src="img/productos/insumos/GRAPAS_WP_INMES.png" alt="GRAPAS WP INMES" width="100%">
                     <div class="content-details">
                         <a href="#" class="btn producto-btn">ver producto</a>
