@@ -18,7 +18,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/insumos/GRAPAS_EN_CARTUCHO.png" alt="GRAPAS EN CARTUCHO" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/insumos/grapas_en_cartucho.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">GRAPAS EN CARTUCHO</h3>
@@ -29,7 +29,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/insumos/GRAPAS_INMES.png" alt="GRAPAS INMES" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/insumos/grapas_inmes.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">GRAPAS INMES</h3>
@@ -40,7 +40,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/insumos/GRAPAS_WP_INMES.png" alt="GRAPAS WP INMES" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/insumos/grapas_wp_inmes.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">GRAPAS WP INMES</h3>
@@ -51,7 +51,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/insumos/GRAPAS_INMES_EN_BOBINA.png" alt="GRAPAS INMES EN BOBINA" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/insumos/grapas_inmes_en_bobina.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">GRAPAS INMES EN BOBINA</h3>
@@ -62,7 +62,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/insumos/FLEXIPUNTAS_SS.png" alt="FLEXIPUNTAS SS" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/insumos/flexipuntas_ss.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">FLEXIPUNTAS SS</h3>
@@ -73,7 +73,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/insumos/FLEXIPUNTAS-_INMES.png" alt="FLEXIPUNTAS INMES" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/insumos/flexipuntas-_inmes.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">FLEXIPUNTAS INMES</h3>
@@ -84,7 +84,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/insumos/RIGIPUNTAS.png" alt="RIGIPUNTAS" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/insumos/rigipuntas.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">RIGIPUNTAS</h3>
@@ -95,7 +95,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/insumos/BISAGRAS_DB-03.png" alt="BISAGRAS DB-03" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/insumos/bisagras_db-03.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">BISAGRAS DB-03</h3>

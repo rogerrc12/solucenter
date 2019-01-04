@@ -69,25 +69,25 @@
 <script src="js/vendor/modernizr-3.6.0.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-<script src="js/vendor/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <?php
 $basename = basename($_SERVER['PHP_SELF']);
 $archivo = str_replace(".php", "", $basename);
 
 if ($archivo === 'index') {
-    echo '<script src="helpers/slick/slick.min.js"></script>';
+    echo '<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>';
 }
 if ($archivo === 'index' || $archivo === 'insumos' || $archivo === 'marqueria' || $archivo === 'melamine') {
-    echo '<script src="helpers/inputTel/js/intlTelInput.min.js"></script>';
-    echo '<script src="helpers/inputTel/js/utils.js"></script>';
+    echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/14.0.6/js/intlTelInput.min.js"></script>';
+    echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/14.0.6/js/utils.js"></script>';
 }
 if ($archivo === 'marqueria' || $archivo === 'melamine') {
-    echo '<script src="js/vendor/jquery.twbsPagination.min.js"></script>';
+    echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js"></script>';
 }
 if ($archivo === 'index' || $archivo === 'insumos' || 
     $archivo === 'marqueria' || $archivo === 'melamine' || $archivo === 'contacto') {
-    echo '<script src="js/vendor/jquery.validate.min.js"></script>';
-    echo '<script src="js/vendor/additional-methods.min.js"></script>';
+    echo '<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.min.js"></script>';
+    echo '<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/additional-methods.min.js"></script>';
     echo '<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.32.2/dist/sweetalert2.all.min.js"></script>';
 }
 if ($archivo === 'contacto') {

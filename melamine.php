@@ -348,7 +348,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/escuadradoras/ESCUADRADORA-_FF-300_PLUS.png" alt="ESCUADRADORA FF-300 PLUS" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/escuadradoras/escuadradora-_ff-300_plus.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">ESCUADRADORA FF-300 PLUS</h3>
@@ -359,7 +359,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/escuadradoras/ESCUADRADORA-_FF-325_PLUS.png" alt="ESCUADRADORA FF-325 PLUS" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/escuadradoras/escuadradora-_ff-325_plus.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">ESCUADRADORA FF-325 PLUS</h3>
@@ -370,7 +370,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/escuadradoras/ESCUADRADORA-_FF-400_PLUS.png" alt="ESCUADRADORA FF-400 PLUS" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/escuadradoras/escuadradora-_ff-400_plus.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">ESCUADRADORA FF-400 PLUS</h3>
@@ -381,7 +381,7 @@
                     <div class="content-overlay"></div>
                     <img src="img/productos/escuadradoras/ESCUADRADORA_FF-3200_DC_3X.png" alt="ESCUADRADORA FF-3200 DC 3X" width="100%">
                     <div class="content-details">
-                        <a href="#" class="btn producto-btn">ver producto</a>
+                        <a href="productos/escuadradoras/escuadradora_ff-3200_dc_3x.php" class="btn producto-btn">ver producto</a>
                     </div>
                 </div>
                 <h3 class="H3 p-3">ESCUADRADORA FF-3200 DC 3X</h3>

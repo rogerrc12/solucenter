@@ -1,4 +1,6 @@
 $(document).ready(() => {
+    $('.pre-loader').css({'display': 'none'});
+    
     $('.dropdown-menu a.dropdown-toggle').on( 'click', e => {
         const $el = $(this);
         const $parent = $(this).offsetParent(".dropdown-menu");
@@ -44,7 +46,7 @@ $(document).ready(() => {
                     error.appendTo( element.parents('#tipo_producto') );
                 }
                 else 
-                { // This is the default behavior 
+                {
                     error.insertAfter( element );
                 }
              },

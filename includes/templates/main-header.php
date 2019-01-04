@@ -28,16 +28,16 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
   <?php
     if ($archivo === 'index') {
-      echo '<link rel="stylesheet" href="helpers/slick/slick.css">';
-      echo '<link rel="stylesheet" href="helpers/slick/slick-theme.css">';
+      echo '<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>';
+      echo '<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>';
     }
-    echo '<link rel="stylesheet" href="css/bootstrap.min.css">';
-    echo '<link rel="stylesheet" href="css/normalize.css">';
+    echo '<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">';
+    echo '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">';
     if ($archivo === 'contacto') {
       echo '<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css" />';
     }
     if ($archivo === 'index' || $archivo === 'insumos' || $archivo === 'marqueria' || $archivo === 'melamine') {
-      echo '<link rel="stylesheet" href="helpers/inputTel/css/intlTelInput.min.css">';
+      echo '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/14.0.6/css/intlTelInput.css">';
     }
     if ($archivo === 'index' || $archivo === 'insumos' || 
         $archivo === 'marqueria' || $archivo === 'melamine' || $archivo === 'contacto') {

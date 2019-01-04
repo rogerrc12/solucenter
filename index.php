@@ -1,5 +1,6 @@
 <?php
   include_once('includes/templates/main-header.php');
+  include_once('includes/templates/preloader.php');
 ?>
   <div class="main-slider" id="mainSlider">
     <div class="position-relative">

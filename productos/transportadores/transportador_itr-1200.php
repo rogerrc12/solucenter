@@ -17,17 +17,17 @@
         <div class="row">
             <section class="col-12 col-lg-6">
                 <div class="imgBox">
-                    <img src="<?php echo "../../img/productos/seccionadoras/$producto.png" ?>" alt="<?php $producto ?>">
+                    <img src="<?php echo "../../img/productos/transportadores/$producto.png" ?>" alt="<?php $producto ?>">
                 </div>
                 <ul class="thumb list-inline">
                     <li class="list-inline-item">
-                        <a href="<?php echo "../../img/productos/seccionadoras/$producto.png" ?>" target="imgBox"><img src="<?php echo "../../img/productos/seccionadoras/$producto.png" ?>" alt="<?php $producto ?>"></a>
+                        <a href="<?php echo "../../img/productos/transportadores/$producto.png" ?>" target="imgBox"><img src="<?php echo "../../img/productos/transportadores/$producto.png" ?>" alt="<?php $producto ?>"></a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="<?php echo "../../img/productos/seccionadoras/$producto.png" ?>" target="imgBox"><img src="<?php echo "../../img/productos/seccionadoras/$producto.png" ?>" alt="<?php $producto ?>"></a>
+                        <a href="<?php echo "../../img/productos/transportadores/$producto.png" ?>" target="imgBox"><img src="<?php echo "../../img/productos/transportadores/$producto.png" ?>" alt="<?php $producto ?>"></a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="<?php echo "../../img/productos/seccionadoras/$producto.png" ?>" target="imgBox"><img src="<?php echo "../../img/productos/seccionadoras/$producto.png" ?>" alt="<?php $producto ?>"></a>
+                        <a href="<?php echo "../../img/productos/transportadores/$producto.png" ?>" target="imgBox"><img src="<?php echo "../../img/productos/transportadores/$producto.png" ?>" alt="<?php $producto ?>"></a>
                     </li>
                 </ul>
             </section>
