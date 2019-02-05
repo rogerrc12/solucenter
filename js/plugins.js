@@ -35,5 +35,30 @@ $(document).ready(function(){
         arrows: true,
         autoplaySpeed: 6000
     });
+
+    $('.destacados-slider').slick({
+        autoplay: true,
+        arrows: false,
+        speed: 1500,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+    });
   }
 });
