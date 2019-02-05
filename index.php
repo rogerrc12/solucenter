@@ -20,84 +20,93 @@
     </div>
   </div>
   <!-- Slider -->
+
   <article class="destacados">
     <h2 class="H1 text-center mb-2">Productos Destacados</h2>
     <div class="container">
-      <div class="row">
-        <div class="col-6 col-md-4 mb-4 producto">
-          <div class="col-md-12">
-            <div class="content-overlay"></div>
-            <img src="img/productos/avanzadores/AVANZADOR_PF-32.png" alt="AVANZADOR PF-32" width="100%">
-            <div class="content-details">
-              <img src="img/ico_ver.svg" alt="icon ver">
-              <h4 class="mt-2">Avanzador PF-3</h4>
-            </div>
+      <div class="destacados-slider">
+        <div>
+          <div class="destacado">
+            <img src="img/productos/escuadradoras/ESCUADRADORA-_FF-325_PLUS.png" alt="ESCUADRADORA FF-325 PLUS">
+            <h3>ESCUADRADORA FF-325 PLUS</h3>
+            <a href="" class="btn">ver producto</a>
           </div>
         </div>
-        <!-- Producto -->
-        <div class="col-6 col-md-4 mb-4 producto">
-          <div class="col-md-12">
-            <div class="content-overlay"></div>
-            <img src="img/productos/colectores/COLECTOR_EM-300_T2.png" alt="COLECTOR EM-300 T2" width="100%">
-            <div class="content-details">
-              <img src="img/ico_ver.svg" alt="icon ver">
-              <h4 class="mt-2">Colector EM-300 T2</h4>
-            </div>
+        <div>
+          <div class="destacado">
+            <img src="img/productos/enchapadoras/ENCHAPADORA_IC-1000_ELECTRONIC.png" alt="ENCHAPADORA IC-1000 ELECTRONIC">
+            <h3>ENCHAPADORA IC-1000 ELECTRONIC</h3>
+            <a href="" class="btn">ver producto</a>
           </div>
         </div>
-        <!-- Producto -->
-        <div class="col-6 col-md-4 mb-4 producto">
-          <div class="col-md-12">
-            <div class="content-overlay"></div>
-            <img src="img/productos/perforadoras/PERFORADORA_IF-8500.png" alt="PERFORADORA IF-8500" width="100%">
-            <div class="content-details">
-              <img src="img/ico_ver.svg" alt="icon ver">
-              <h4 class="mt-2">Perforadora IF-8500</h4>
-            </div>
+        <div>
+          <div class="destacado">
+            <img src="img/productos/enchapadoras/ENCHAPADORA_IC-2003_DRRP_PLUS_ELECTRONIC.png" alt="ENCHAPADORA IC-2003 DRRP PLUS ELECTRONIC">
+            <h3>ENCHAPADORA IC-2003 DRRP PLUS ELECTRONIC</h3>
+            <a href="" class="btn">ver producto</a>
           </div>
         </div>
-        <!-- Producto -->
-        <div class="col-6 col-md-4 mb-4 producto">
-          <div class="col-md-12">
-            <div class="content-overlay"></div>
-            <img src="img/productos/pantografos/PANTOGRAFO_IP-100.png" alt="PANTÓGRAFO IP-100" width="100%">
-            <div class="content-details">
-              <img src="img/ico_ver.svg" alt="icon ver">
-              <h4 class="mt-2">Pantógrafo IP-100</h4>
-            </div>
+        <div>
+          <div class="destacado">
+            <img src="img/productos/colectores/COLECTOR_EM-200A.png" alt="COLECTOR EM-200A">
+            <h3>COLECTOR EM-200A</h3>
+            <a href="" class="btn">ver producto</a>
           </div>
         </div>
-        <!-- Producto -->
-        <div class="col-6 col-md-4 mb-4 producto">
-          <div class="col-md-12">
-            <div class="content-overlay"></div>
-            <img src="img/productos/pistolas/PISTOLA_RI-160_P.png" alt="PISTOLA RI-160 P" width="100%">
-            <div class="content-details">
-              <img src="img/ico_ver.svg" alt="icon ver">
-              <h4 class="mt-2">Pistola RI-160 P</h4>
-            </div>
+        <div>
+          <div class="destacado">
+            <img src="img/productos/colectores/COLECTOR_EF-300_T2.png" alt="COLECTOR EF-300 T2">
+            <h3>COLECTOR EF-300 T2</h3>
+            <a href="" class="btn">ver producto</a>
           </div>
         </div>
-        <!-- Producto -->
-        <div class="col-6 col-md-4 mb-4 producto">
-          <div class="col-md-12">
-            <div class="content-overlay"></div>
-            <img src="img/productos/sierras/SIERRA_INGLETEADORA_IM-30.png" alt="SIERRA INGLETEADORA IM-30" width="100%">
-            <div class="content-details">
-              <img src="img/ico_ver.svg" alt="icon ver">
-              <h4 class="mt-2">Sierra Ingleteadora IM-30</h4>
-            </div>
+        <div>
+          <div class="destacado">
+            <img src="img/productos/transportadores/TRANSPORTADOR_ITR-1200.png" alt="TRANSPORTADOR ITR-1200">
+            <h3>TRANSPORTADOR ITR-1200</h3>
+            <a href="" class="btn">ver producto</a>
           </div>
         </div>
-        <!-- Producto -->
+        <div>
+          <div class="destacado">
+            <img src="img/productos/grampeadoras/GRAMPEADORA_IM-3_SE.png" alt="GRAMPEADORA IM-3 SE">
+            <h3>GRAMPEADORA IM-3 SE</h3>
+            <a href="" class="btn">ver producto</a>
+          </div>
+        </div>
+        <div>
+          <div class="destacado">
+            <img src="img/productos/grampeadoras/GRAMPEADORA_IM-3P_SE.png" alt="GRAMPEADORA IM-3P SE">
+            <h3>GRAMPEADORA IM-3P SE</h3>
+            <a href="" class="btn">ver producto</a>
+          </div>
+        </div>
+        <div>
+          <div class="destacado">
+            <img src="img/productos/sierras/SIERRA_INGLETEADORA_IM-30.png" alt="SIERRA INGLETEADORA IM-30">
+            <h3>SIERRA INGLETEADORA IM-30</h3>
+            <a href="" class="btn">ver producto</a>
+          </div>
+        </div>
+        <div>
+          <div class="destacado">
+            <img src="img/productos/pistolas/PISTOLA_FI-150_M.png" alt="PISTOLA FI-150 M">
+            <h3>PISTOLA FI-150 M</h3>
+            <a href="" class="btn">ver producto</a>
+          </div>
+        </div>
+        <div>
+          <div class="destacado">
+            <img src="img/productos/insumos/GRAPAS_INMES.png" alt="GRAPAS INMES">
+            <h3>GRAPAS INMES</h3>
+            <a href="" class="btn">ver producto</a>
+          </div>
+        </div>
       </div>
-      <!-- Row Productos -->
-    </div>
-    <div class="container my-3 text-center">
-      <a href="marqueria.php" class="btn">ver más</a>
     </div>
   </article>
   <!-- Prouctos Destacados -->
+
   <div class="nosotros-home text-center d-flex align-items-center">
     <div class="container">
       <h2 class="H1 mb-4">Somos una empresa especializada en la importación y representación de equipos y maquinaria de la más alta tecnología para la industria del mueble.</h2>

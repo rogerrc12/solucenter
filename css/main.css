@@ -408,7 +408,11 @@ textarea {
     text-transform: uppercase;
     position: relative;
     padding: 10px 0;
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
+}
+
+.destacados h2 {
+    margin-bottom: 30px !important;
 }
 
 .compromiso h3::after,
@@ -455,6 +459,36 @@ textarea {
     .testimonios-home h2 {
         line-height: 3rem
     }
+}
+
+.destacados .slick-slide {
+    height: auto !important;
+}
+
+.destacados .destacado {
+    width: 100%;
+    min-height: 300px;
+    padding-right: 20px;
+}
+
+.destacado img {
+    width: 100%;
+}
+
+.destacado a.btn {
+    background-color: transparent;
+    padding: 5px 0 1px;
+    border: none;
+    border-radius: 0;
+    color: #fca436;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: .2s ease-in;
+}
+
+.destacado a.btn:hover,
+.destacado a.btn:focus {
+    transform: translateX(7px);
 }
 
 .producto .content-overlay,
@@ -997,7 +1031,8 @@ label.error {
     color: #fff
 }
 
-.producto h3 {
+.producto h3,
+.destacado h3 {
     font-size: 1.2rem;
     text-align: left;
     padding-top: 10px!important;
