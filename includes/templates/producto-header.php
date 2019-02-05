@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Productos | Soluciones Modulares Perú</title>
-  <meta name="description" content="Máquinas con la más alta tecnología en la industria del mueble. Asesoría y capacitación continua de nuestros productos y servicios. Innovación constante.">
+  <meta name="description" content="Maquinas para muebleria con la más alta tecnología en la industria del mueble.  Muebles y muebleria de la mejor calidad. Estámos ubicados en Perú, ofreciendo asesoría y capacitación continua de nuestros productos y servicios. Innovación constante.">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta rel="canonical" href="https://www.solucenterperu.com">
   <meta name="robots" content="noindex, nofollow">
@@ -24,7 +24,7 @@
 
   <!-- Add your site or application content here -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">
         <img src="../../img/logo_nav.svg" alt="logo solucenter" width="100px">
       </a>
@@ -37,7 +37,7 @@
             <a class="nav-link" href="../../index.php">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../nosotros.php">Nostros</a>
+            <a class="nav-link" href="../../nosotros.php">Nosotros</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">productos</a>

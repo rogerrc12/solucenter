@@ -32,37 +32,8 @@ $(document).ready(function(){
         accessibility: true,
         adaptiveHeight: true,
         autoplay: true,
-        arrows: true
+        arrows: true,
+        autoplaySpeed: 6000
     });
-  }
-
-  if(document.getElementById('navegacion-productos')) {
-    $('#navegacion-productos').twbsPagination({
-      totalPages: $('article.productos section').toArray().length,
-      startPage: 1,
-      visiblePages: $('article.productos section').toArray().length + 1,
-      initiateStartPageClick: true,
-      href: false,
-      hrefVariable: '{{number}}',
-      first: 'Primero',
-      prev: 'Anterior',
-      next: 'Siguiente',
-      last: 'Último',
-      loop: false,
-      onPageClick: (event, page) => {
-        $('.page-active').removeClass('page-active');
-        $('#page'+page).addClass('page-active');
-      },
-
-      // Clases
-      paginationClass: 'pagination',
-      nextClass: 'next',
-      prevClass: 'prev',
-      lastClass: 'last',
-      firstClass: 'first',
-      pageClass: 'page',
-      activeClass: 'active',
-      disabledClass: 'disabled'
-    })
   }
 });

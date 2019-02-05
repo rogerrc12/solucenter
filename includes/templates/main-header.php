@@ -21,7 +21,7 @@
   ?>
   <meta name="robots" content="index, follow">
   <meta rel="canonical" href="https://www.solucenterperu.com">
-  <meta name="description" content="Maquinas para muebleria con la más alta tecnología en la industria del mueble. Ubicados en Peré, ofrecemos asesoría y capacitación continua de nuestros productos y servicios. Innovación constante. muebles y muebleria de la mejor calidad">
+  <meta name="description" content="Maquinas para muebleria con la más alta tecnología en la industria del mueble.  Muebles y muebleria de la mejor calidad. Estámos ubicados en Perú, ofreciendo asesoría y capacitación continua de nuestros productos y servicios. Innovación constante.">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" type="image/png" href="favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
@@ -30,6 +30,7 @@
     if ($archivo === 'index') {
       echo '<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>';
       echo '<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>';
+      echo '<link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">';
     }
     echo '<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">';
     echo '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">';

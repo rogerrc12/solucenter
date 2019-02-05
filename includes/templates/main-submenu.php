@@ -19,7 +19,7 @@
     <div class="col-12 col-md-4 social-box">
     <a href="contacto.php#map" class="d-block">
         <div class="content-overlay"></div>
-        <img src="img/social3.png" alt="Mapa" width="100%">
+        <img src="img/social3.jpg" alt="Mapa" width="100%">
         <span class="fas fa-map-marked-alt fa-4x"></span>
     </a>
     </div>

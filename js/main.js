@@ -1,6 +1,24 @@
 $(document).ready(() => {
+    // Crear efecto de fixed nav al hacer scroll
+    const mainNavEL = document.querySelector('.navbar');
+
+    const fixedNav = () => {
+        if (window.scrollY > mainNavEL.offsetTop) {
+            document.body.style.paddingTop = mainNavEL.offsetHeight + 'px';
+            document.body.classList.add('fixed-nav');
+        }
+        else {
+            document.body.style.paddingTop = 0;
+            document.body.classList.remove('fixed-nav');
+        }
+    }
+
+    window.addEventListener('scroll', fixedNav);
+
+    // Ocultar  Preloader al cargar pagina
     $('.pre-loader').css({'display': 'none'});
     
+    // Effecto para mostrar y ocultar menu desplegable (productos)
     $('.dropdown-menu a.dropdown-toggle').on( 'click', e => {
         const $el = $(this);
         const $parent = $(this).offsetParent(".dropdown-menu");
@@ -20,6 +38,7 @@ $(document).ready(() => {
         return false;
     });
 
+    // Validar el formulario de pedido con el plugin Jquery Validator
     if (document.getElementById('formularioPedido')) {
         const inputPhone = document.querySelector("#telefono");
         window.intlTelInput(inputPhone, {
@@ -56,10 +75,24 @@ $(document).ready(() => {
         })
     }
 
+    // Cambiar las imagenes en la vista de productos
     if($('.imgBox')[0]) {
         $('.thumb a').on('mouseover', e => {
             e.preventDefault();
             $('.imgBox img').attr('src', $(this).attr('href'));
+        })
+    }
+
+    // Seccionar la parte de productos por el tipo de maquina
+    if ($('.accordion')[0]) {
+        $('.accordion').on('mouseup', '.card-header', e => {
+            if (e.target.classList.contains('opened')) {
+                $('.card-header').removeClass('opened');
+            }
+            else {
+                $('.card-header').removeClass('opened');
+                e.target.classList.add('opened')
+            }
         })
     }
 });

@@ -80,9 +80,7 @@ if ($archivo === 'index') {
 if ($archivo === 'index' || $archivo === 'insumos' || $archivo === 'marqueria' || $archivo === 'melamine') {
     echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/14.0.6/js/intlTelInput.min.js"></script>';
     echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/14.0.6/js/utils.js"></script>';
-}
-if ($archivo === 'marqueria' || $archivo === 'melamine') {
-    echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.2/jquery.twbsPagination.min.js"></script>';
+    echo '<script src="https://vjs.zencdn.net/7.4.1/video.js"></script>';
 }
 if ($archivo === 'index' || $archivo === 'insumos' || 
     $archivo === 'marqueria' || $archivo === 'melamine' || $archivo === 'contacto') {

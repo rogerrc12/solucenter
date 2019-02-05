@@ -5,21 +5,33 @@
       <form action="" id="formularioPedido">
         <div class="form-row">
           <div class="col-12 col-md-6">
-            <input type="text" class="form-control" name="nombre" placeholder="Nombre">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" name="nombre">
+            </div>
           </div>
           <div class="col-12 col-md-6">
-            <input type="text" class="form-control" name="apellido" placeholder="Apellido">
+            <div class="form-group">
+              <label for="apellido">Apellido</label>
+              <input type="text" class="form-control" id="apellido" name="apellido">
+            </div>
           </div>
         </div>
-        <div class="form-row mt-3">
+        <div class="form-row">
           <div class="col-12 col-md-6">
-            <input type="tel" class="form-control" id="telefono" name="telefono">
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" class="form-control" id="telefono" name="telefono">
+            </div>
           </div>
           <div class="col-12 col-md-6">
-            <input type="email" class="form-control" name="email" placeholder="Correo Electrónico">
+            <div class="form-group">
+              <label for="email">Correo Electrónico</label>
+              <input type="email" id="email" class="form-control" name="email">
+            </div>
           </div>
         </div>
-        <div class="form-row mt-5">
+        <div class="form-row mt-2">
           <div class="col-12 col-md-6" id="tipo_producto">
             <label class="d-block mb-2">Selecciona el tipo de producto</label>
             <label class="d-block">Máquinas</label>

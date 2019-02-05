@@ -14,12 +14,27 @@
         <p>Nos encantaría guiarte en el proceso de compra o simplemente despejar tus dudas, así que déjanos tus datos y será un gusto atenderte.</p>
         <h4 class="H3 my-3">Por favor, complete el questionario</h4>
         <form method="POST" autocomplete="off" id="contactForm" action="http://localhost:8888/proyectos/solucenter-api/contacto.php">
-          <input class="form-control" name="nombre" type="text" placeholder="NOMBRE Y APELLIDO" required>
-          <input class="form-control" name="email" type="email" placeholder="CORREO ELECTRONICO" required>
-          <input class="form-control" name="direccion" type="text" placeholder="DIRECCIÓN" required>
-          <input class="form-control" name="asunto" type="text" placeholder="ASUNTO" required>
-          <textarea class="form-control" name="mensaje" rows="4" placeholder="MENSAJE" required></textarea>
-          <small class="d-block mb-4">El mensaje debe ser de al menos 25 caracteres</small>
+          <div class="form-group">
+            <label for="nombre">Nombre y Apellido</label>
+            <input class="form-control" id="nombre" name="nombre" type="text" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo Electrónico</label>
+            <input class="form-control" name="email" type="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="direccion">Dirección</label>
+            <input class="form-control" name="direccion" type="text" id="direccion" required>
+          </div>
+          <div class="form-group">
+            <label for="asunto">Asunto</label>
+            <input class="form-control" name="asunto" type="text" id="asunto" required>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea class="form-control" name="mensaje" rows="4" id="mensaje" required></textarea>
+            <small class="d-block mb-4 mt-3">El mensaje debe ser de al menos 25 caracteres</small>
+          </div>
           <input type="submit" value="enviar" class="btn">
         </form>
     </div>
