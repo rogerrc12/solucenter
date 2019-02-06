@@ -2,23 +2,71 @@
   include_once('includes/templates/main-header.php');
   include_once('includes/templates/preloader.php');
 ?>
-  <div class="main-slider" id="mainSlider">
-    <div class="position-relative">
-      <h3 class="H1">Representantes exclusivos de INMES. Máquinas con la más alta tecnología en la industria del mueble.</h3>
-      <a href="contacto.php" class="btn">contáctanos</a>
-      <img src="img/slider1.jpg" alt="Slider 1">
+  <section class="bg-slider">
+    <div class="container">
+      <div class="main-slider" id="mainSlider">
+        <div class="position-relative">
+          <div class="contenido-slide">
+            <h3 class="slide-descripcion">
+              Donde menos es más! 
+              <br>
+              El mejor beneficio para
+              <br>
+              su fábrica de muebles.
+            </h3>
+            <a href="contacto.php" class="btn">contáctanos</a>
+          </div>
+          <img src="img/slider/slider1.png" alt="Escuadradora FF 325 Plus">
+        </div>
+        <div class="position-relative">
+          <div class="contenido-slide">
+            <h3 class="slide-descripcion">
+              Calidad y Productividad
+              <br>
+              a su alcance!
+            </h3>
+            <a href="contacto.php" class="btn">contáctanos</a>
+          </div>
+          <img src="img/slider/slider2.png" alt="Enchapadora IC 1000 Electronic">
+        </div>
+        <div class="position-relative">
+          <div class="contenido-slide">
+            <h3 class="slide-descripcion">
+              Mayor durabilidad y menor riesgo
+              <br>
+              de generación de chispa.
+            </h3>
+            <a href="contacto.php" class="btn">contáctanos</a>
+          </div>
+          <img src="img/slider/slider3.png" alt="Colector EM 200A">
+        </div>
+        <div class="position-relative">
+          <div class="contenido-slide">
+            <h3 class="slide-descripcion">
+              Calidad y productividad
+              <br>
+              con más economía
+              <br>
+              Un gran éxito en su marqueria.
+            </h3>
+            <a href="contacto.php" class="btn">contáctanos</a>
+          </div>
+          <img src="img/slider/slider4.png" alt="Grampeadora IM-3 SE">
+        </div>
+        <div class="position-relative">
+          <div class="contenido-slide">
+            <h3 class="slide-descripcion">
+              Más robusta, más calidad
+              <br>
+              y más silencio.
+            </h3>
+            <a href="contacto.php" class="btn">contáctanos</a>
+          </div>
+          <img src="img/slider/slider5.png" alt="Sierra Ingleteadora IM-30">
+        </div>
+      </div>
     </div>
-    <div class="position-relative">
-      <h3 class="H1">Calidad garantizada con años de servicio y fidelidad.</h3>
-      <a href="contacto.php" class="btn">contáctanos</a>
-      <img src="img/slider2.jpg" alt="">
-    </div>
-    <div class="position-relative">
-      <h3 class="H1">Innovación constante. Asesoría y capacitación continua de nuestros productos y servicios.</h3>
-      <a href="contacto.php" class="btn">contáctanos</a>
-      <img src="img/slider3.jpg" alt="">
-    </div>
-  </div>
+  </section>
   <!-- Slider -->
 
   <article class="destacados">

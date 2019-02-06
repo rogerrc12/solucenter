@@ -224,8 +224,8 @@ textarea {
 }
 
 .navbar-brand {
-    padding-top: .7rem;
-    padding-bottom: .7rem
+    padding-top: .5rem;
+    padding-bottom: .5rem
 }
 
 .navbar-nav li {
@@ -273,7 +273,7 @@ textarea {
 }
 
 .slick-slide {
-    height: 400px !important
+    height: 300px !important
 }
 
 .slick-next,
@@ -295,6 +295,16 @@ textarea {
     font-size: .8rem
 }
 
+.bg-slider {
+    background-image: url(../img/banner-bg.jpg);
+    background-color: rgba(0, 0, 0, .2);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-burn;
+    height: 250px
+}
+
 .slick-next {
     right: 1rem
 }
@@ -303,7 +313,16 @@ textarea {
     left: 1rem
 }
 
+.slick-next,
+.slick-prev {
+    display: none !important;
+}
+
 @media only screen and (min-width:568px) {
+    .bg-slider {
+        height: auto;
+    }
+
     .content-details img {
         width: 65px
     }
@@ -322,65 +341,71 @@ textarea {
     }
 }
 
-.main-slider a,
-.main-slider h3 {
+.slick-slide img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contenido-slide {
+    width: 50%;
     position: absolute;
+    left: 5%;
+    bottom: 50%;
 }
 
-.main-slider a {
-    display: none;
-    font-size: .75rem;
-}
-
-.main-slider h3 {
-    left: 10%;
-    top: 48%;
-    text-align: center;
-    width: 80%;
-    font-size: 1.2rem;
+.contenido-slide h3 {
+    color: #fff;
+    font-size: .8rem;
     line-height: 1.4;
-    padding: 0 10px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
 }
 
-@media only screen and (min-width:568px) {
-    .main-slider h3 {
-        top: 45%;
-        font-size: 1.4rem;
-    }
-    .main-slider a {
-        left: 45%;
-        top: 53%;
-    }
+.contenido-slide a {
+    color: #fff;
+    border-color: transparent;
+    padding: 10px 15px;
+    font-size: .7rem;
+    display: none;
 }
 
 @media only screen and (min-width:767px) {
-    .main-slider h3 {
-        top: 43%;
-        font-size: 1.6rem;
-    }
-    .main-slider a {
-        left: 40%;
-        top: 60%;
-        display: block;
-    }
-
     .slick-slide {
-        height: 500px !important
+        height: 400px !important
+    }
+    .contenido-slide {
+        bottom: 37%;
+        left: 10%;
+    }
+    .contenido-slide h3 {
+        font-size: 1.4rem;
+    }
+    .contenido-slide a {
+        font-size: 1rem;
+        display: inline-block;
+    }
+    .slick-next,
+    .slick-prev {
+        display: inline-block !important;
     }
 }
 
 @media only screen and (min-width:996px) {
     .slick-slide {
-        height: 100vh !important
+        height: 85vh !important
     }
-    .main-slider h3 {
-        top: 45%;
-        font-size: 2rem;
+    .slick-slide img {
+        width: 80%;
     }
-    .main-slider a {
-        left: 43%;
-        top: 62%;
-        font-size: .9rem;
+    .contenido-slide h3 {
+        font-size: 1.8rem
+    }
+}
+
+@media only screen and (min-width:1108px) {
+    .contenido-slide h3 {
+        font-size: 2rem
     }
 }
 

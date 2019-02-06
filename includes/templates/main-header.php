@@ -24,7 +24,7 @@
   <meta name="description" content="Maquinas para muebleria con la más alta tecnología en la industria del mueble.  Muebles y muebleria de la mejor calidad. Estámos ubicados en Perú, ofreciendo asesoría y capacitación continua de nuestros productos y servicios. Innovación constante.">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" type="image/png" href="favicon.png">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Raleway:700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
   <?php
     if ($archivo === 'index') {

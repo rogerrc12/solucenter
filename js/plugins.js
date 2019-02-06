@@ -33,7 +33,8 @@ $(document).ready(function(){
         adaptiveHeight: true,
         autoplay: true,
         arrows: true,
-        autoplaySpeed: 6000
+        autoplaySpeed: 3000,
+        speed: 1000,
     });
 
     $('.destacados-slider').slick({
